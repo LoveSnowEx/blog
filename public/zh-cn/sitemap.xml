@@ -2,118 +2,118 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://lovesnowex.github.io/zh-cn/</loc>
+    <loc>file://wsl.localhost/Arch/home/normal/workspace/blog/public/zh-cn/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://lovesnowex.github.io/"
+                href="#ZgotmplZ"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://lovesnowex.github.io/ar/"
+                href="#ZgotmplZ"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://lovesnowex.github.io/zh-cn/"
+                href="#ZgotmplZ"
                 />
   </url><url>
-    <loc>https://lovesnowex.github.io/zh-cn/categories/</loc>
+    <loc>file://wsl.localhost/Arch/home/normal/workspace/blog/public/zh-cn/categories/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://lovesnowex.github.io/categories/"
+                href="#ZgotmplZ"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://lovesnowex.github.io/ar/categories/"
+                href="#ZgotmplZ"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://lovesnowex.github.io/zh-cn/categories/"
+                href="#ZgotmplZ"
                 />
   </url><url>
-    <loc>https://lovesnowex.github.io/zh-cn/p/test-chinese/</loc>
+    <loc>file://wsl.localhost/Arch/home/normal/workspace/blog/public/zh-cn/p/test-chinese/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://lovesnowex.github.io/zh-cn/post/</loc>
+    <loc>file://wsl.localhost/Arch/home/normal/workspace/blog/public/zh-cn/post/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://lovesnowex.github.io/post/"
+                href="#ZgotmplZ"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://lovesnowex.github.io/ar/post/"
+                href="#ZgotmplZ"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://lovesnowex.github.io/zh-cn/post/"
+                href="#ZgotmplZ"
                 />
   </url><url>
-    <loc>https://lovesnowex.github.io/zh-cn/categories/test/</loc>
+    <loc>file://wsl.localhost/Arch/home/normal/workspace/blog/public/zh-cn/categories/test/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://lovesnowex.github.io/categories/test/"
+                href="#ZgotmplZ"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://lovesnowex.github.io/zh-cn/categories/test/"
+                href="#ZgotmplZ"
                 />
   </url><url>
-    <loc>https://lovesnowex.github.io/zh-cn/categories/%E6%B5%8B%E8%AF%95/</loc>
+    <loc>file://wsl.localhost/Arch/home/normal/workspace/blog/public/zh-cn/categories/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://lovesnowex.github.io/zh-cn/page/</loc>
+    <loc>file://wsl.localhost/Arch/home/normal/workspace/blog/public/zh-cn/page/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://lovesnowex.github.io/page/"
+                href="#ZgotmplZ"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://lovesnowex.github.io/zh-cn/page/"
+                href="#ZgotmplZ"
                 />
   </url><url>
-    <loc>https://lovesnowex.github.io/zh-cn/tags/</loc>
+    <loc>file://wsl.localhost/Arch/home/normal/workspace/blog/public/zh-cn/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://lovesnowex.github.io/tags/"
+                href="#ZgotmplZ"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="https://lovesnowex.github.io/ar/tags/"
+                href="#ZgotmplZ"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://lovesnowex.github.io/zh-cn/tags/"
+                href="#ZgotmplZ"
                 />
   </url><url>
-    <loc>https://lovesnowex.github.io/zh-cn/%E5%85%B3%E4%BA%8E/</loc>
+    <loc>file://wsl.localhost/Arch/home/normal/workspace/blog/public/zh-cn/%E5%85%B3%E4%BA%8E/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://lovesnowex.github.io/about/"
+                href="#ZgotmplZ"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://lovesnowex.github.io/zh-cn/%E5%85%B3%E4%BA%8E/"
+                href="#ZgotmplZ"
                 />
   </url>
 </urlset>
