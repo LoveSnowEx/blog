@@ -29,8 +29,8 @@ subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 
 [params.sidebar.avatar]
 enabled = true
-local = true
-src = "img/avatar.png"
+local = false
+src = "https://i.imgur.com/HtqrA5p.png"
 
 [params.article]
 math = false
