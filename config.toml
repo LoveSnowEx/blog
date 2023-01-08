@@ -1,4 +1,4 @@
-baseurl = "https://lovesnowex.github.io/blog/public/"
+baseurl = "http://mail.lovesnowex.tk"
 languageCode = "zh-tw"
 theme = "hugo-theme-stack"
 paginate = 5

@@ -1,0 +1,15 @@
+mail.lovesnowex.tk
+
+root * ./public
+
+# Templates give static sites some dynamic features
+templates
+
+# Compress responses according to Accept-Encoding headers
+encode zstd gzip
+
+# Make HTML file extension optional
+try_files {path}.html {path}
+
+# Serve everything else from the file system
+file_server
