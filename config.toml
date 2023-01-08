@@ -1,33 +1,27 @@
+DefaultContentLanguage = "en"
 baseurl = "http://mail.lovesnowex.tk"
-languageCode = "zh-tw"
-theme = "hugo-theme-stack"
-paginate = 5
-title = "LoveSnowEx's blog"
-disqusShortname = "hugo-theme-stack"
-DefaultContentLanguage = "zh-tw"
+disqusShortname = "stack"
 hasCJKLanguage = true
-
-[languages.zh-tw]
-languageName = "中文"
-title = "範例網站"
-description = "範例描述"
-weight = 1
+languageCode = "en-us"
+paginate = 5
+theme = "stack"
+title = "LoveSnowEx's Blog"
 
 [permalinks]
-post = "/p/:slug/"
 page = "/:slug/"
+post = "/:year/:slug/"
 
 [params]
-mainSections = ["post"]
 featuredImageField = "image"
+mainSections = ["post"]
 rssFullContent = true
 
 [params.footer]
 since = 2_020
 
 [params.dateFormat]
-published = "Jan 02, 2006"
 lastUpdated = "Jan 02, 2006 15:04 MST"
+published = "Jan 02, 2006"
 
 [params.sidebar]
 emoji = "🍥"
@@ -40,12 +34,12 @@ src = "img/avatar.png"
 
 [params.article]
 math = false
-toc = true
 readingTime = true
+toc = true
 
 [params.article.license]
-enabled = true
 default = "Licensed under CC BY-NC-SA 4.0"
+enabled = true
 
 [params.comments]
 enabled = true
@@ -62,7 +56,7 @@ issueTerm = "pathname"
 autoCreateIssue = false
 
 [params.comments.waline]
-emoji = ["https://unpkg.com/@waline/emojis@1.0.1/weibo"]
+emoji = ["https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo"]
 requiredMeta = ["name", "email", "url"]
 
 [params.comments.waline.locale]
@@ -76,36 +70,21 @@ serverName = "cactus.chat"
 siteName = ""
 
 [params.comments.giscus]
-reactionsEnabled = 1
 emitMetadata = 0
+reactionsEnabled = 1
 
 [params.comments.gitalk]
 
 [params.comments.cusdis]
 
-[[params.widgets.homepage]]
-type = "search"
+[params.widgets]
+enabled = ["search", "toc", "categories", "archives", "tag-cloud"]
 
-[[params.widgets.homepage]]
-type = "archives"
-
-[params.widgets.homepage.params]
+[params.widgets.archives]
 limit = 5
 
-[[params.widgets.homepage]]
-type = "categories"
-
-[params.widgets.homepage.params]
+[params.widgets.tagCloud]
 limit = 10
-
-[[params.widgets.homepage]]
-type = "tag-cloud"
-
-[params.widgets.homepage.params]
-limit = 10
-
-[[params.widgets.page]]
-type = "toc"
 
 [params.opengraph.twitter]
 card = "summary_large_image"
@@ -115,8 +94,8 @@ enabled = false
 local = false
 
 [params.colorScheme]
-toggle = true
 default = "auto"
+toggle = true
 
 [params.imageProcessing.cover]
 enabled = true
@@ -124,8 +103,15 @@ enabled = true
 [params.imageProcessing.content]
 enabled = true
 
-[menu]
-main = []
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = -100
+
+[menu.main.params]
+icon = "home"
+newTab = "flase"
 
 [[menu.social]]
 identifier = "github"
@@ -157,7 +143,7 @@ name = "categories"
 weight = 200
 
 [markup.goldmark.renderer]
-unsafe = false
+unsafe = true
 
 [markup.tableOfContents]
 endLevel = 4
@@ -165,10 +151,10 @@ ordered = true
 startLevel = 2
 
 [markup.highlight]
-noClasses = false
-codeFences = true
+codeFences = false
 guessSyntax = true
 lineNoStart = 1
 lineNos = true
 lineNumbersInTable = true
+noClasses = false
 tabWidth = 4
