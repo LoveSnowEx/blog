@@ -1,6 +1,6 @@
 mail.lovesnowex.tk
 
-root * ./public
+root * /srv
 
 # Templates give static sites some dynamic features
 templates
@@ -13,3 +13,12 @@ try_files {path}.html {path}
 
 # Serve everything else from the file system
 file_server
+
+log {
+	format console
+}
+
+handle_errors {
+	rewrite * /{http.error.status_code}.html
+	file_server
+}
