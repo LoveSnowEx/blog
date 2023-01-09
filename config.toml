@@ -6,6 +6,7 @@ languageCode = "en-us"
 paginate = 5
 theme = "stack"
 title = "LoveSnowEx's Blog"
+googleAnalytics = "G-T1D8VD7D71"
 
 [permalinks]
 page = "/:slug/"
