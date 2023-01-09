@@ -1,10 +1,11 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
+slug: "{{ .Name }}"
 description: 
-date: {{ .Date }}
+date: "{{ now.Format "2006-01-02T15:04:05+08:00" }}"
+lastmod: "{{ now.Format "2006-01-02T15:04:05+08:00" }}"
 image: 
-math: 
-license: 
+license: "CC BY-NC-ND"
 hidden: false
 comments: true
 draft: true
