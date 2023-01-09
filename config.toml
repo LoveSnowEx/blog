@@ -117,18 +117,18 @@ newTab = "flase"
 [[menu.social]]
 identifier = "github"
 name = "GitHub"
-url = "https://github.com/CaiJimmy/hugo-theme-stack"
+url = "https://github.com/LoveSnowEx"
 
 [menu.social.params]
 icon = "brand-github"
 
-[[menu.social]]
-identifier = "twitter"
-name = "Twitter"
-url = "https://twitter.com"
+# [[menu.social]]
+# identifier = "twitter"
+# name = "Twitter"
+# url = "https://twitter.com"
 
-[menu.social.params]
-icon = "brand-twitter"
+# [menu.social.params]
+# icon = "brand-twitter"
 
 [related]
 includeNewer = true
