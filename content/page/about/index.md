@@ -1,34 +1,53 @@
 ---
 title: About
-description: Hugo, the world's fastest framework for building websites
-date: '2019-02-28'
+description: "No Code No Life"
+date: "2023-01-09T07:15:00+08:00"
 aliases:
-  - about-us
-  - about-hugo
-  - contact
-license: CC BY-NC-ND
-lastmod: '2020-10-09'
+    - "about-me"
+license: "CC BY-NC-ND"
+lastmod: "2023-01-09T07:16:00+08:00"
 menu:
-    main: 
+    main:
         weight: -90
         params:
-            icon: user
+            icon: "user"
 ---
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+我是郭泰維，就讀臺灣師範大學的資訊工程學系。實作能力強，在寫程式時具有高度的專注力。  
+致力於寫 clean code，樂於學習新知識，平時沒事會閱讀技術文章精進自己。
 
-Hugo makes use of a variety of open source projects including:
+主力語言：
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+- Go (up to 1.18)
+- C
+- C++ (up to 17)
+- Python (up to 3.10)
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+> 另外對 Vue, Typescript, Shell Script, Java, Kotlin, C# 的使用都有一定的基礎。
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+開發過以下專案：
 
-Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
+- 線上書審報名系統
+- 電腦版回合制桌遊 ([Bang](https://boardgamegeek.com/boardgame/3955/bang))
+- 合作遊戲之玩家 AI (類似 [Overcooked](https://store.steampowered.com/app/448510/Overcooked))
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+實作 C++ STL 作為練習：
+
+- vector
+- list
+- string
+
+用純 C 寫過一些小型專案，如：
+
+- hash map
+- json parser
+- csv reader
+- bmp modifier
+- ID3 editor
+- base64 encoder/decoder
+- socket client
+
+其他能力：
+
+- Regex
+- GraphQL
