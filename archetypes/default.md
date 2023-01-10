@@ -1,6 +1,8 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 slug: "{{ .Name }}"
+tags: 
+c: 
 description: 
 date: "{{ now.Format "2006-01-02T15:04:05+08:00" }}"
 lastmod: "{{ now.Format "2006-01-02T15:04:05+08:00" }}"
