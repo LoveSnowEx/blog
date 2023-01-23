@@ -2,7 +2,7 @@
 title: "1 - Web 基本概念-API"
 slug: "1-web-essential-archtecture"
 tags: [
-    "web",
+    "Web",
 ]
 categories: [
     "網站教學"

@@ -2,11 +2,10 @@
 title: "部落格建立紀錄"
 slug: "blog-build-record"
 tags: [
-    "hugo",
-    "record",
+    "Hugo",
 ]
 categories: [
-    blog,
+    "心得感想",
 ]
 description: 
 date: "2023-01-09T13:49:34+08:00"

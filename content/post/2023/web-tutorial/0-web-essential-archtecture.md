@@ -2,7 +2,7 @@
 title: "0 - Web 基本概念-網站架構"
 slug: "0-web-essential-archtecture"
 tags: [
-    "web",
+    "Web",
 ]
 categories: [
     "網站教學"
