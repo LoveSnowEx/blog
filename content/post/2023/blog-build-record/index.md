@@ -9,7 +9,7 @@ categories: [
 ]
 description: 
 date: "2023-01-09T13:49:34+08:00"
-lastmod: "2023-01-11T23:47:34+08:00"
+lastmod: "2023-01-23T21:19:00+08:00"
 image: 
 license: "CC BY-NC-ND"
 hidden: false
@@ -61,10 +61,11 @@ hugo
 ```
 
 這邊我使用[轉檔網站](https://www.convertsimple.com/convert-yaml-to-toml/)將 config.yaml 轉成 config.toml
+並修改第一段如下：
 
 ```toml
 DefaultContentLanguage = "en"
-baseurl = "http://mail.lovesnowex.tk"
+baseurl = "http://blog.lovesnowex.tk"
 disqusShortname = "stack"
 hasCJKLanguage = true
 languageCode = "en-us"
@@ -80,7 +81,7 @@ title = "LoveSnowEx's Blog"
 在專案根目錄建立 Caddyfile
 
 ```caddy
-mail.lovesnowex.tk
+blog.lovesnowex.tk
 
 root * /srv
 
