@@ -1,5 +1,4 @@
 DefaultContentLanguage = "en"
-baseurl = "http://blog.lovesnowex.tk"
 disqusShortname = "stack"
 hasCJKLanguage = true
 languageCode = "en-us"
