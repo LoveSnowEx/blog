@@ -9,7 +9,7 @@ categories:
   - 甘普基本变形定律
 image: 
 slug: stack-theme-mod
-
+draft: true
 ---
 Github仓库地址：[Mantyke](https://github.com/Mantyke)/[stack-theme-mod](https://github.com/Mantyke/Hugo-stack-theme-mod)
 
