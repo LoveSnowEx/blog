@@ -1,8 +1,12 @@
 ---
 title: "Go 教學 - 第一支程式 \"Hello World!\""
-slug: "go-tutorial"
-tags: 
-c: 
+slug: "go-tutorial-hello-world"
+tags: [
+    "Go",
+]
+categories: [
+    "Go 教學",
+]
 description: 
 date: "2023-01-23T13:15:04+08:00"
 lastmod: "2023-01-23T13:15:04+08:00"
@@ -15,13 +19,13 @@ draft: false
 
 ## 建立第一支程式
 
-在專案根目錄建立一個名為 `hello.go` 的檔案
+在專案根目錄建立一個名為 `hello.go` 的檔案。
 
 這邊有幾個知識點補充：
 
 1. 所謂的專案 (Project)，指的是一個產品或者服務，為了達成一個目標而建立的項目。在本教學中，我們的練習用的也是一個專案。
 2. 專案根目錄 (Project Root Directory)，就是我們存放專案的路徑位置。
-3. .go 是 Golang 程式使用的副檔名
+3. .go 是 Golang 程式使用的副檔名。
 
 ```tree
 .
@@ -42,7 +46,7 @@ func main() {
 
 ## 執行
 
-使用 `go run <檔案>` 即可執行程式
+使用 `go run <檔案>` 即可執行程式。
 
 ```shell
 go run hello.go
