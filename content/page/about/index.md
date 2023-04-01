@@ -25,18 +25,22 @@ menu:
   - C
   - C++ (up to 17)
   - Python (up to 3.10)
-  - Typescript / Javascript
-
-> 另外對 Shell Script, Java, Kotlin 也都有一定的基礎。
-
-- Side Skill
+  - TypeScript / JavaScript
+- Other
+  - Shell Script
+  - Java
+  - Kotlin
+- Side Skills
   - Regex
   - GraphQL
+  - Gorm
+  - ER-diagram design
   - Vue 3
+  - Unreal Engine
 
 ## Side Projects
 
-- 線上書審報名系統
+- 線上申請審查系統
 - 合作遊戲之玩家 AI (類似 [Overcooked](https://store.steampowered.com/app/448510/Overcooked))
 - 電腦版回合制桌遊 ([Bang](https://boardgamegeek.com/boardgame/3955/bang))
 
@@ -58,3 +62,5 @@ menu:
   - discord music bot
 - Java
   - sudoku solver
+- Go
+  - text to midi convertor
