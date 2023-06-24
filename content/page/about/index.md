@@ -27,12 +27,13 @@ menu:
   - Python (up to 3.10)
   - TypeScript / JavaScript
 - Other
-  - Shell Script
   - Java
   - Kotlin
 - Side Skills
+  - RESTful / GraphQL / GRPC
+  - Docker
+  - Shell Script
   - Regex
-  - GraphQL
   - Gorm
   - ER-diagram design
   - Vue 3
@@ -41,17 +42,23 @@ menu:
 ## Side Projects
 
 - 線上申請審查系統
-- 合作遊戲之玩家 AI (類似 [Overcooked](https://store.steampowered.com/app/448510/Overcooked))
-- 電腦版回合制桌遊 ([Bang](https://boardgamegeek.com/boardgame/3955/bang))
+  - 該系統提供了易於管理員建立的動態表單，供申請者上傳書審資料，並能追蹤審查委員的進度，自動計算成績及排名，增加了申請的便利性及效率。
+  - 在專案中，我擔任後端組長，負責後端進度管理、系統架構設計、技術性開發、測試及除錯等工作。
+- 合作遊戲（類 [Overcooked](https://store.steampowered.com/app/448510/Overcooked)）之玩家 AI
+  - 我使用啟發式演算法進行設計，評估各項操作所帶來的利益以進行行為的決策。
+- 電腦版回合制桌遊（[Bang](https://boardgamegeek.com/boardgame/3955/bang)）
+  - 我負責設計整體遊戲系統的架構，建立了一個高度擴展性的事件監聽系統，方便組員能輕鬆地對不同角色及卡牌的功能進行開發。透過這樣的架構，成功地實現了遊戲的功能並且增加了遊戲的可玩性。
 
 ## Coding Practice
 
+- Go
+  - text to midi convertor
 - C
   - hash map
   - json parser
   - csv reader
   - bmp modifier
-  - ID3 editor
+  - ID3 tag editor
   - base64 encoder/decoder
   - socket client
 - C++ STL
@@ -62,5 +69,3 @@ menu:
   - discord music bot
 - Java
   - sudoku solver
-- Go
-  - text to midi convertor
