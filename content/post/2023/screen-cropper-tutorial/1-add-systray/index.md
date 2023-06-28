@@ -1,5 +1,5 @@
 ---
-title: "增加 systray"
+title: "新增系統匣"
 slug: "add-systray"
 tags: ["Go"]
 categories: ["用Go製作截圖工具"]
