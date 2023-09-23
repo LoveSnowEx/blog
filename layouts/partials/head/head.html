@@ -7,7 +7,7 @@
 {{- $title := partialCached "data/title" . .RelPermalink -}}
 <title>{{ $title }}</title>
 
-<link rel='canonical' href='{{ .Permalink }}'>
+<link rel='canonical' href='{{ .Site.BaseURL }}'>
 
 {{- partial "head/style.html" . -}}
 {{- partial "head/script.html" . -}}
