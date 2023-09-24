@@ -2,7 +2,8 @@
 {{- with $List -}}
     {{- range . -}}
         {{- if eq .type "script" -}}
-            <script 
+            <script
+                async
                 src="{{ .src }}"
                 {{- with .integrity -}}
                 integrity="{{ . }}"
