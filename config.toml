@@ -31,7 +31,7 @@ subtitle = "No Code No Life"
 [params.sidebar.avatar]
 enabled = true
 local = false
-src = "avatar.webp"
+src = "/avatar.webp"
 
 [params.article]
 math = false
