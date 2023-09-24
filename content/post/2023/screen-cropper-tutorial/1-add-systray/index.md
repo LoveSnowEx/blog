@@ -1,8 +1,12 @@
 ---
 title: "新增系統匣"
 slug: "add-systray"
-tags: ["Go"]
-categories: ["用Go製作截圖工具"]
+tags: [
+    "Golang",
+]
+categories: [
+    "用Go製作截圖工具",
+]
 description:
 date: "2023-06-25T05:21:23+08:00"
 lastmod: "2023-06-25T05:21:23+08:00"

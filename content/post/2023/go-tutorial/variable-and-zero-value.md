@@ -2,7 +2,7 @@
 title: "Go 教學 - 變數與零值"
 slug: "variable-and-zero-value"
 tags: [
-    "Go",
+    "Golang",
 ]
 categories: [
     "Go 教學",

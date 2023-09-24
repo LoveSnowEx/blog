@@ -2,7 +2,7 @@
 title: "Go 教學 - 第一支程式 \"Hello World!\""
 slug: "go-tutorial-hello-world"
 tags: [
-    "Go",
+    "Golang",
 ]
 categories: [
     "Go 教學",

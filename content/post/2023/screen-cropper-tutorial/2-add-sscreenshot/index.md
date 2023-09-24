@@ -1,8 +1,12 @@
 ---
 title: "新增截圖功能"
 slug: "add-sscreenshot"
-tags: ["Go"]
-categories: ["用Go製作截圖工具"]
+tags: [
+    "Golang",
+]
+categories: [
+    "用Go製作截圖工具",
+]
 description: 
 date: "2023-06-28T04:49:51+08:00"
 lastmod: "2023-06-28T04:49:51+08:00"

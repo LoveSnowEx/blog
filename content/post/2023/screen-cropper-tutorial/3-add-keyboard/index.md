@@ -1,8 +1,12 @@
 ---
 title: "Add Keyboard"
 slug: "add-keyboard"
-tags: ["Go"]
-categories: ["用Go製作截圖工具"]
+tags: [
+    "Golang",
+]
+categories: [
+    "用Go製作截圖工具",
+]
 description: 
 date: "2023-06-29T08:24:16+08:00"
 lastmod: "2023-06-29T08:24:16+08:00"

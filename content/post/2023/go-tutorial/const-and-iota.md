@@ -2,7 +2,7 @@
 title: "Go 教學 - 常數和 iota"
 slug: "const-and-iota"
 tags: [
-    "Go",
+    "Golang",
 ]
 categories: [
     "Go 教學",

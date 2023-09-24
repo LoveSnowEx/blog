@@ -2,7 +2,7 @@
 title: "初始化 Wails 專案"
 slug: "init-wails"
 tags: [
-    "Go",
+    "Golang",
 ]
 categories: [
     "用Go製作截圖工具",
