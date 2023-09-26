@@ -7,6 +7,7 @@ theme = "stack"
 title = "LoveSnowEx's Blog"
 baseURL = "https://blog.lovesnowex.tk/"
 googleAnalytics = "G-T1D8VD7D71"
+enableRobotsTXT = true
 
 [permalinks]
 page = "/:slug/"
