@@ -1,6 +1,7 @@
 featuredImageField = "image"
 mainSections = ["post"]
 rssFullContent = true
+keywords = ["lovesnowex","blog"]
 
 [footer]
 since = 2_020
