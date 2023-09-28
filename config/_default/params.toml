@@ -1,0 +1,90 @@
+featuredImageField = "image"
+mainSections = ["post"]
+rssFullContent = true
+
+[footer]
+since = 2_020
+
+[dateFormat]
+lastUpdated = "Jan 02, 2006 15:04 MST"
+published = "Jan 02, 2006"
+
+[sidebar]
+# emoji = "🍥"
+subtitle = "No Code No Life"
+
+[sidebar.avatar]
+enabled = true
+local = false
+src = "/avatar.webp"
+
+[article]
+math = false
+readingTime = true
+toc = true
+
+[article.license]
+default = "Licensed under CC BY-NC-SA 4.0"
+enabled = true
+
+[comments]
+enabled = true
+provider = "disqus"
+
+[comments.disqusjs]
+
+[comments.utterances]
+issueTerm = "pathname"
+
+[comments.remark42]
+
+[comments.vssue]
+autoCreateIssue = false
+
+[comments.waline]
+emoji = ["https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo"]
+requiredMeta = ["name", "email", "url"]
+
+[comments.waline.locale]
+admin = "Admin"
+
+[comments.twikoo]
+
+[comments.cactus]
+defaultHomeserverUrl = "https://matrix.cactus.chat:8448"
+serverName = "cactus.chat"
+siteName = ""
+
+[comments.giscus]
+emitMetadata = 0
+reactionsEnabled = 1
+
+[comments.gitalk]
+
+[comments.cusdis]
+
+[widgets]
+enabled = ["search", "toc", "categories", "archives", "tag-cloud"]
+
+[widgets.archives]
+limit = 5
+
+[widgets.tagCloud]
+limit = 10
+
+[opengraph.twitter]
+card = "summary_large_image"
+
+[defaultImage.opengraph]
+enabled = false
+local = false
+
+[colorScheme]
+default = "auto"
+toggle = true
+
+[imageProcessing.cover]
+enabled = true
+
+[imageProcessing.content]
+enabled = true
