@@ -7,10 +7,19 @@ tags: [
 categories: [
     "用Go製作截圖工具",
 ]
-description: 
+keywords: [
+    "Golang",
+    "Go",
+    "Wails",
+    "桌面應用程式",
+    "截圖工具",
+    "截圖",
+    "screenshot",
+]
+description:
 date: "2023-06-28T04:49:51+08:00"
 lastmod: "2023-06-28T04:49:51+08:00"
-image: 
+image:
 license: "CC BY-NC-ND"
 hidden: false
 comments: true

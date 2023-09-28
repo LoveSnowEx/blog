@@ -7,10 +7,18 @@ tags: [
 categories: [
     "Go 教學",
 ]
-description: 
+keywords: [
+    "Golang",
+    "Go",
+    "變數",
+    "零值",
+    "Variable",
+    "Zero Value",
+]
+description:
 date: "2023-02-02T17:32:53+08:00"
 lastmod: "2023-02-04T03:59:59+08:00"
-image: 
+image:
 license: "CC BY-NC-ND"
 hidden: false
 comments: true

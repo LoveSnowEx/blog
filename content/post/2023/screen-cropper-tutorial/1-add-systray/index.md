@@ -7,6 +7,15 @@ tags: [
 categories: [
     "用Go製作截圖工具",
 ]
+keywords: [
+    "Golang",
+    "Go",
+    "Wails",
+    "桌面應用程式",
+    "截圖工具",
+    "系統匣",
+    "systray",
+]
 description:
 date: "2023-06-25T05:21:23+08:00"
 lastmod: "2023-06-25T05:21:23+08:00"

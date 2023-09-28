@@ -7,10 +7,16 @@ tags: [
 categories: [
     "Go 教學",
 ]
-description: 
+keywords: [
+    "Golang",
+    "Go",
+    "常數",
+    "iota",
+]
+description:
 date: "2023-02-15T17:36:09+08:00"
 lastmod: "2023-02-15T17:36:09+08:00"
-image: 
+image:
 license: "CC BY-NC-ND"
 hidden: false
 comments: true

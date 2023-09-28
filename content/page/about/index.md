@@ -11,6 +11,9 @@ menu:
         weight: -90
         params:
             icon: "user"
+keywords: [
+    "about",
+]
 ---
 
 ## Introduction

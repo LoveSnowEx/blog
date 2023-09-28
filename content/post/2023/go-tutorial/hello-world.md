@@ -7,10 +7,16 @@ tags: [
 categories: [
     "Go 教學",
 ]
-description: 
+keywords: [
+    "Golang",
+    "Go",
+    "Hello World",
+    "Hello World!",
+]
+description:
 date: "2023-01-23T13:15:04+08:00"
 lastmod: "2023-01-23T13:15:04+08:00"
-image: 
+image:
 license: "CC BY-NC-ND"
 hidden: false
 comments: true

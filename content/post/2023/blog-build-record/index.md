@@ -7,10 +7,15 @@ tags: [
 categories: [
     "心得感想",
 ]
-description: 
+keywords: [
+    "Hugo",
+    "部落格",
+    "blog",
+]
+description:
 date: "2023-01-09T13:49:34+08:00"
 lastmod: "2023-01-23T21:19:00+08:00"
-image: 
+image:
 license: "CC BY-NC-ND"
 hidden: false
 comments: true
