@@ -11,7 +11,7 @@ enableRobotsTXT = true
 
 [permalinks]
 page = "/:slug/"
-post = "/:year/:slug/"
+post = "/post/:slug/"
 
 [[menu.main]]
 identifier = "home"
@@ -21,7 +21,7 @@ weight = -100
 
 [menu.main.params]
 icon = "home"
-newTab = "flase"
+newTab = "false"
 
 [[menu.social]]
 identifier = "github"
@@ -30,14 +30,6 @@ url = "https://github.com/LoveSnowEx"
 
 [menu.social.params]
 icon = "brand-github"
-
-# [[menu.social]]
-# identifier = "twitter"
-# name = "Twitter"
-# url = "https://twitter.com"
-
-# [menu.social.params]
-# icon = "brand-twitter"
 
 [related]
 includeNewer = true
@@ -71,6 +63,6 @@ style = "monokai"
 tabWidth = 4
 
 [sitemap]
-  changefreq = "always"
-  filename = "sitemap.xml"
-  priority = 0.5
+changefreq = "always"
+filename = "sitemap.xml"
+priority = 0.5
