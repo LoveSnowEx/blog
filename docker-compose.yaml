@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   caddy:
-    image: caddy:2.6-alpine
+    image: caddy:2.7-alpine
     container_name: blog-caddy
     restart: unless-stopped
     ports:
@@ -12,11 +12,3 @@ services:
     volumes:
       - $PWD/Caddyfile:/etc/caddy/Caddyfile
       - $PWD/public:/srv
-
-  dozzle:
-    container_name: dozzle
-    image: amir20/dozzle:latest
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
-    ports:
-      - 9999:8080
