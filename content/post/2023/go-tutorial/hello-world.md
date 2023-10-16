@@ -2,16 +2,16 @@
 title: "Go 教學 - 第一支程式 \"Hello World!\""
 slug: "go-tutorial-hello-world"
 tags: [
-    "Golang",
+    "golang",
 ]
 categories: [
     "Go 教學",
 ]
 keywords: [
-    "Golang",
-    "Go",
-    "Hello World",
-    "Hello World!",
+    "go",
+    "golang",
+    "tutorial",
+    "hello world",
 ]
 description:
 date: "2023-01-23T13:15:04+08:00"

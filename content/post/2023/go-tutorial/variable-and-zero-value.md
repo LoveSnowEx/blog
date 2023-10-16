@@ -2,18 +2,19 @@
 title: "Go 教學 - 變數與零值"
 slug: "variable-and-zero-value"
 tags: [
-    "Golang",
+    "golang",
 ]
 categories: [
     "Go 教學",
 ]
 keywords: [
-    "Golang",
-    "Go",
+    "go",
+    "golang",
+    "tutorial",
+    "variable",
+    "zero Value",
     "變數",
     "零值",
-    "Variable",
-    "Zero Value",
 ]
 description:
 date: "2023-02-02T17:32:53+08:00"

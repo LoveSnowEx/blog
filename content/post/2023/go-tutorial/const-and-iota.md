@@ -2,16 +2,19 @@
 title: "Go 教學 - 常數和 iota"
 slug: "const-and-iota"
 tags: [
-    "Golang",
+    "golang",
 ]
 categories: [
     "Go 教學",
 ]
 keywords: [
-    "Golang",
-    "Go",
-    "常數",
+    "go",
+    "golang",
+    "tutorial",
+    "const",
+    "constant",
     "iota",
+    "常數",
 ]
 description:
 date: "2023-02-15T17:36:09+08:00"

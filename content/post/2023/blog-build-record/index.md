@@ -2,15 +2,18 @@
 title: "部落格建立紀錄"
 slug: "blog-build-record"
 tags: [
-    "Hugo",
+    "hugo",
 ]
 categories: [
     "心得感想",
 ]
 keywords: [
-    "Hugo",
-    "部落格",
+    "hugo",
     "blog",
+    "experience",
+    "部落格",
+    "建立",
+    "心得",
 ]
 description:
 date: "2023-01-09T13:49:34+08:00"

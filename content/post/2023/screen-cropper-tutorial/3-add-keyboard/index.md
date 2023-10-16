@@ -8,13 +8,15 @@ categories: [
     "用Go製作截圖工具",
 ]
 keywords: [
-    "Golang",
-    "Go",
-    "Wails",
+    "go",
+    "golang",
+    "application",
+    "wails",
+    "screenshot",
+    "keyboard",
     "桌面應用程式",
     "截圖工具",
     "熱鍵",
-    "keyboard",
 ]
 description:
 date: "2023-06-29T08:24:16+08:00"

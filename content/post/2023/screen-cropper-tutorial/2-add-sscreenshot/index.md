@@ -8,13 +8,14 @@ categories: [
     "用Go製作截圖工具",
 ]
 keywords: [
-    "Golang",
-    "Go",
-    "Wails",
+    "go",
+    "golang",
+    "application",
+    "wails",
+    "screenshot",
     "桌面應用程式",
     "截圖工具",
     "截圖",
-    "screenshot",
 ]
 description:
 date: "2023-06-28T04:49:51+08:00"

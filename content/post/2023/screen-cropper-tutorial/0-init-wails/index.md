@@ -8,9 +8,11 @@ categories: [
     "用Go製作截圖工具",
 ]
 keywords: [
-    "Golang",
-    "Go",
-    "Wails",
+    "go",
+    "golang",
+    "application",
+    "wails",
+    "screenshot",
     "桌面應用程式",
     "截圖工具",
 ]

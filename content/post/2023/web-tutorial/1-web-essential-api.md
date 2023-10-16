@@ -2,15 +2,26 @@
 title: "1 - Web 基本概念-API"
 slug: "1-web-essential-archtecture"
 tags: [
-    "Web",
+    "web",
 ]
 categories: [
     "網站教學"
 ]
-description: 
+keywords: [
+    "web",
+    "archtecture",
+    "frontend",
+    "backend",
+    "api",
+    "網站",
+    "架構",
+    "前端“,
+    ”後端",
+]
+description:
 date: "2023-01-18T23:02:00+08:00"
 lastmod: "2023-01-18T23:02:00+08:00"
-image: 
+image:
 license: "CC BY-NC-ND"
 hidden: false
 comments: true
