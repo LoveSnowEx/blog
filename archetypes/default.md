@@ -3,10 +3,10 @@ title: "{{ replace .Name "-" " " | title }}"
 slug: "{{ .Name }}"
 tags: []
 categories: []
-description: 
+description:
 date: "{{ now.Format "2006-01-02T15:04:05+08:00" }}"
 lastmod: "{{ now.Format "2006-01-02T15:04:05+08:00" }}"
-image: 
+image:
 license: "CC BY-NC-ND"
 hidden: false
 comments: true
