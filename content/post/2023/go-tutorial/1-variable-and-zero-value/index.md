@@ -5,7 +5,7 @@ tags: [
     "golang",
 ]
 categories: [
-    "Go 教學",
+    "Go教學",
 ]
 keywords: [
     "go",
