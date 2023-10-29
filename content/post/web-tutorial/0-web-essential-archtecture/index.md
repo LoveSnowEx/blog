@@ -1,6 +1,6 @@
 ---
 title: "[Web] 0. 基本概念 - 網站架構"
-slug: "web-essential-archtecture"
+slug: "archtecture"
 tags: [
     "web",
 ]

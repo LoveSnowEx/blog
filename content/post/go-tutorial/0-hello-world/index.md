@@ -1,6 +1,6 @@
 ---
 title: "[Go 教學] 0. 第一支程式 \"Hello World!\""
-slug: "go-tutorial-hello-world"
+slug: "hello-world"
 tags: [
     "golang",
 ]

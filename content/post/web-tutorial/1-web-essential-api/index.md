@@ -1,6 +1,6 @@
 ---
 title: "[Web] 1. 基本概念 - API"
-slug: "web-essential-api"
+slug: "api"
 tags: [
     "web",
 ]
