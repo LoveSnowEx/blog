@@ -1,5 +1,5 @@
 ---
-title: "初始化 Wails 專案"
+title: "[截圖工具] 0. 初始化 Wails 專案"
 slug: "init-wails"
 tags: [
     "Golang",

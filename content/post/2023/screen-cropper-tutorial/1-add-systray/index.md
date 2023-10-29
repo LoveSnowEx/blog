@@ -1,5 +1,5 @@
 ---
-title: "新增系統匣"
+title: "[截圖工具] 1. 新增系統匣功能"
 slug: "add-systray"
 tags: [
     "Golang",

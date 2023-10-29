@@ -1,5 +1,5 @@
 ---
-title: "Add Keyboard"
+title: "[截圖工具] 3. 新增快捷鍵功能"
 slug: "add-keyboard"
 tags: [
     "Golang",
@@ -16,7 +16,7 @@ keywords: [
     "keyboard",
     "桌面應用程式",
     "截圖工具",
-    "熱鍵",
+    "快捷鍵",
 ]
 description:
 date: "2023-06-29T08:24:16+08:00"

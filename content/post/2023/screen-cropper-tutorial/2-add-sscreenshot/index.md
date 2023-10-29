@@ -1,5 +1,5 @@
 ---
-title: "新增截圖功能"
+title: "[截圖工具] 2. 新增截圖功能"
 slug: "add-sscreenshot"
 tags: [
     "Golang",

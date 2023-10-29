@@ -1,5 +1,5 @@
 ---
-title: "Go 教學 - 變數與零值"
+title: "[Go 教學] 1. 變數與零值"
 slug: "variable-and-zero-value"
 tags: [
     "golang",

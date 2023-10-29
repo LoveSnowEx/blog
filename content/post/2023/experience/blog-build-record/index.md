@@ -1,5 +1,5 @@
 ---
-title: "部落格建立紀錄"
+title: "[心得] 部落格建立紀錄"
 slug: "blog-build-record"
 tags: [
     "hugo",

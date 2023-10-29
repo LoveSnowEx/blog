@@ -1,5 +1,5 @@
 ---
-title: "Go 教學 - 常數和 iota"
+title: "[Go 教學] 2. 常數和 iota"
 slug: "const-and-iota"
 tags: [
     "golang",

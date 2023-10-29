@@ -1,18 +1,19 @@
 ---
-title: "開發守則"
+title: "[心得] 開發守則"
 slug: "development-principle"
 tags: [
     "development",
     "principle",
 ]
 categories: [
-    "軟體開發",
     "心得感想",
 ]
 keywords: [
+    “software”,
     "development",
     "principle",
     "experience",
+    "軟體",
     "開發",
     "原則",
     "守則",
