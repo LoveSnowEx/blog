@@ -27,7 +27,7 @@ comments: true
 draft: false
 ---
 
-## 1. 建立 screen 的 package
+## 建立 screen 的 package
 
 這個 package 用來處理螢幕截圖，並且將截圖結果存到 buffer 裡面。
 
@@ -224,7 +224,7 @@ func MaxBound() image.Rectangle {
 
 MaxBound() 用來取得所有螢幕的最大範圍。這個範圍就是我們要截圖的範圍。
 
-## 2. 將 screen 嵌入到 app 中
+## 將 screen 嵌入到 app 中
 
 ```go
 // App struct
@@ -243,7 +243,7 @@ func NewApp() *App {
 
 在 App struct 中，我們將 screen 嵌入進來，並且在 NewApp() 中初始化。
 
-## 3. 建立 HTTP asset server
+## 建立 HTTP asset server
 
 在 pkg/handler/screen.go 中建立 handler：
 
@@ -342,7 +342,7 @@ err := wails.Run(&options.App{
 
 在 main.go 中，我們將 handler 套用到 AssetServer 中，讓前端可以透過 HTTP request 取得 screen 的結果。
 
-## 4. 從前端獲取 screen
+## 從前端獲取 screen
 
 這邊我們暫時透過呼叫 Greet() 來觸發截圖。
 並且透過 HTTP request 來取得截圖後的結果。
@@ -386,7 +386,7 @@ const getImage = async () => {
 
 在 greet() 中，我們呼叫 getImage()，透過 fetch() 來取得 screen.png，並且將結果顯示在前端。
 
-## 5. 結果
+## 結果
 
 執行結果如下，可以看到 screen.png 已經成功顯示在前端了。
 

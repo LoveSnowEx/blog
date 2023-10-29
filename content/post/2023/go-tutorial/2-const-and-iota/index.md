@@ -28,7 +28,7 @@ draft: false
 
 const 在 Go 中是常數的意思，無法被修改，在編譯時期值就定義完成。
 
-## 1. 常數宣告 Constants Declaration
+## 常數宣告 Constants Declaration
 
 const 跟 var 的寫法類似：
 
@@ -59,7 +59,7 @@ const (
 > Go 的常數只可以宣告基本型別，也就是 bool, int, float32 和 string 等，  而 slice, map, pointer, struct 等都是不行的。
 > 另外，const 不能使用 `:=` 進行宣告。
 
-## 2. iota
+## iota
 
 宣告常數時可以搭配 `iota` 使用，`iota` 表示在同一個 const group 內的行索引數，(也就是小括號內的第幾行)，每遇到新的 `const` 字詞，itoa 就會歸零。
 

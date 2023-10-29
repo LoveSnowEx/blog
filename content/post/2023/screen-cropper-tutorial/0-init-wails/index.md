@@ -30,7 +30,7 @@ draft: false
 
 這系列主要記錄我使用 Go 開發截圖工具的過程，利用 Wails 框架結合前端框架，輕鬆開發桌面應用程式。
 
-## 1. 安裝 Wails
+## 安裝 Wails
 
 執行以下指令安裝 Wails：
 
@@ -38,7 +38,7 @@ draft: false
 go install github.com/wailsapp/wails/v2/cmd/wails@latest
 ```
 
-## 2. 建立 Wails 專案
+## 建立 Wails 專案
 
 -n 參數指定專案名稱，-t 參數指定模板。
 
@@ -46,7 +46,7 @@ go install github.com/wailsapp/wails/v2/cmd/wails@latest
 wails init -n screen-cropper -t svelte-ts
 ```
 
-## 3. 修改 go.mod
+## 修改 go.mod
 
 這邊把 module 名稱改成 screen-cropper 或是你 github 上的專案名稱。
 
@@ -55,7 +55,7 @@ wails init -n screen-cropper -t svelte-ts
 module screen-cropper  // or 'module github.com/LoveSnowEx/screen-cropper'
 ```
 
-## 4. Build Wails 專案
+## Build Wails 專案
 
 執行以下指令，會在 build/bin 下產生一個 screen-cropper.exe 檔案。
 

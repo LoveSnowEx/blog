@@ -28,11 +28,11 @@ comments: true
 draft: false
 ---
 
-## 1. 新增 icon
+## 新增 icon
 
 在專案目錄下新增一個 assets 資料夾，放入 icon.ico 檔案。
 
-## 2. 新增 systray 的 package
+## 新增 systray 的 package
 
 在 pkg/systray 資料夾下新增 systray.go 檔案，並加入以下程式碼：
 
@@ -150,7 +150,7 @@ func Done() <-chan struct{} {
 }
 ```
 
-## 3. 修改 app.go
+## 修改 app.go
 
 將 app.go 修改成以下程式碼：
 
@@ -257,7 +257,7 @@ func (a *App) startup(ctx context.Context) {
 }
 ```
 
-## 4. 重新 build 專案
+## 重新 build 專案
 
 重新 build 專案，並且執行。
 
