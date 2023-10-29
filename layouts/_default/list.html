@@ -30,10 +30,10 @@
                         {{- $Width = $thumbnail.Width -}}
                         {{- $Height = $thumbnail.Height -}}
                     {{- end -}}
-                    
-                    <img src="{{ $Permalink }}" 
+
+                    <img src="{{ $Permalink }}"
                         width="{{ $Width }}"
-                        height="{{ $Height }}" 
+                        height="{{ $Height }}"
                         loading="lazy">
                 {{ else }}
                     <img src="{{ $image.permalink }}" loading="lazy" />
@@ -44,7 +44,7 @@
 
     {{- $subsections := .Sections -}}
     {{- $pages := .Pages | complement $subsections -}}
-    
+
     {{- if eq (len $pages) 0 -}}
         {{/* If there are no normal pages, display subsections in list style, with pagination */}}
         {{/* This happens with taxonomies like categories or tags */}}
@@ -56,13 +56,13 @@
         <h2 class="section-title">{{ T "list.subsection" (len $subsections) }}</h2>
         <div class="subsection-list">
             <div class="article-list--tile">
-                {{ range . }}                  
+                {{ range . }}
     				{{ partial "article-list/tile" (dict "context" . "size" "250x150" "Type" "section") }}
                 {{ end }}
             </div>
         </div>
     {{- end -}}
-    
+
     {{/* List only pages that are not a subsection */}}
     {{ $paginator := .Paginate $pages }}
     <section class="article-list--compact">

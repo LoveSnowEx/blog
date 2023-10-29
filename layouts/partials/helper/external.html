@@ -13,8 +13,8 @@
                 >
             </script>
         {{- else if eq .type "style" -}}
-            <link 
-                rel="stylesheet" 
+            <link
+                rel="stylesheet"
                 href="{{ .src }}"
                 {{- with .integrity -}}
                 integrity="{{ . }}"

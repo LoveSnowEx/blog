@@ -38,7 +38,7 @@
             <ol class="social-menu">
                 {{ range . }}
                     <li>
-                        <a 
+                        <a
                             href='{{ .URL }}'
                             {{ if eq (default true .Params.newTab) true }}target="_blank"{{ end }}
                             {{ with .Name }}title="{{ . }}"{{ end }}

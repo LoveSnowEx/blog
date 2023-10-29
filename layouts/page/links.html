@@ -1,7 +1,7 @@
 {{ define "body-class" }}article-page keep-sidebar{{ end }}
 {{ define "main" }}
     {{ partial "article/article.html" . }}
-    
+
     <div class="article-list--compact links">
         {{ $siteResources := resources }}
         {{ range $i, $link :=  $.Site.Data.links }}
@@ -19,7 +19,7 @@
                             {{ end }}
                         </footer>
                     </div>
-            
+
                     {{ if $link.image }}
                         {{ $image := $siteResources.Get (delimit (slice "link-img/" $link.image) "") | resources.Fingerprint "md5" }}
                         {{ $imageResized := $image.Resize "120x120" }}

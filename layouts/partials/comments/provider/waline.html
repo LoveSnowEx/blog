@@ -17,7 +17,7 @@
 {{- $replaceKeys := dict "serverurl" "serverURL" "requiredmeta" "requiredMeta" "wordlimit" "wordLimit" "pagesize" "pageSize" "avatarcdn" "avatarCDN" "avatarforce" "avatarForce" -}}
 
 {{- range $key, $val := . -}}
-    {{- if $val -}}  
+    {{- if $val -}}
         {{- $replaceKey := index $replaceKeys $key -}}
         {{- $k := default $key $replaceKey -}}
 

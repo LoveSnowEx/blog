@@ -16,7 +16,7 @@
         {{- else -}}
             {{- $imagePermalink = $image.permalink -}}
         {{- end -}}
-        
+
         {{- $data = merge $data (dict "image" (absURL $imagePermalink)) -}}
     {{- end -}}
 

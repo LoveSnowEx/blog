@@ -25,11 +25,11 @@
 	{{- end -}}
 {{- end -}}
 
-<figure 
+<figure
 	{{ if $galleryImage }}
-		class="gallery-image" 
+		class="gallery-image"
 		style="
-			flex-grow: {{ div (mul $image.Width 100) $image.Height }}; 
+			flex-grow: {{ div (mul $image.Width 100) $image.Height }};
 			flex-basis: {{ div (mul $image.Width 240) $image.Height }}px"
 	{{ end }}>
 	<a href="{{ $Permalink }}" {{ if $galleryImage }}data-size="{{ $image.Width }}x{{ $image.Height }}"{{ end }}>

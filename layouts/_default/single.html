@@ -17,7 +17,7 @@
     {{ partial "article/article.html" . }}
 
     {{ partial "article/components/related-contents" . }}
-     
+
     {{ if or (not (isset .Params "comments")) (eq .Params.comments "true")}} 
         {{ partial "comments/include" . }}
     {{ end }}
@@ -55,7 +55,7 @@
                     {{ partial "helper/icon" "hash" }}
                 </div>
                 <h2 class="widget-title section-title">{{ T "article.tableOfContents" }}</h2>
-                
+
                 <div class="widget--toc">
                     {{ .TableOfContents }}
                 </div>
