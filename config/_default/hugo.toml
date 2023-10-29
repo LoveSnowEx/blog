@@ -11,7 +11,7 @@ enableRobotsTXT = true
 
 [permalinks]
 page = "/:slug/"
-post = "/post/:slug/"
+post = "/:sections/:slug/"
 
 [[menu.main]]
 identifier = "home"
