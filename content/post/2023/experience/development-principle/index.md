@@ -3,7 +3,6 @@ title: "[心得] 開發守則"
 slug: "development-principle"
 tags: [
     "development",
-    "principle",
 ]
 categories: [
     "心得感想",
