@@ -66,3 +66,6 @@ tabWidth = 4
 changefreq = "always"
 filename = "sitemap.xml"
 priority = 0.5
+
+[services.rss]
+limit = 5
