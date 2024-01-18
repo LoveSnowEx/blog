@@ -2,16 +2,22 @@
     :root {
         --article-font-family: "Noto Serif TC", var(--base-font-family);
     }
+
     @font-face {
         font-family: "Noto Serif TC";
-        src: url("/fonts/NotoSerifTC-Light.woff2") format("woff2");
+        src: url("/fonts/Noto-Serif-TC-300.woff2") format("woff2"),
+            url("/fonts/Noto-Serif-TC-300.woff") format("woff"),
+            url("/fonts/Noto-Serif-TC-300.ttf") format("truetype");
         font-style: normal;
         font-weight: 300;
         font-display: swap;
     }
+
     @font-face {
         font-family: "Noto Serif TC";
-        src: url("/fonts/NotoSerifTC-Bold.woff2") format("woff2");
+        src: url("/fonts/Noto-Serif-TC-700.woff2") format("woff2"),
+            url("/fonts/Noto-Serif-TC-700.woff") format("woff"),
+            url("/fonts/Noto-Serif-TC-700.ttf") format("truetype");
         font-style: normal;
         font-weight: 700;
         font-display: swap;
