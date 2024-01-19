@@ -16,17 +16,10 @@
                     {{ $avatar := resources.Get (.src) }}
 
                     {{ if $avatar }}
-                        {{ with $avatar.Resize "100x" }}
-                            <img id= "avatar" src="{{ .RelPermalink }}" width="{{ .Width }}"
+                        {{ with $avatar.Resize "200x q85 lanczos" }}
+                            <link rel="preload" href="{{ .RelPermalink }}" as="image">
+                            <img src="{{ .RelPermalink }}" width="{{ .Width }}"
                                 height="{{ .Height }}" class="site-logo" loading="eager" alt="Avatar">
-                        {{ end }}
-                        {{ with $avatar.Resize "300x" }}
-                            <script>
-                                var avatar = document.getElementById("avatar");
-                                addEventListener("load", function() {
-                                    avatar.src = "{{ .RelPermalink }}";
-                                });
-                            </script>
                         {{ end }}
                     {{ else }}
                         {{ errorf "Failed loading avatar from %q" . }}
