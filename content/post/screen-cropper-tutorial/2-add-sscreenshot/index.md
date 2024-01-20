@@ -182,7 +182,7 @@ func (s *screen) Capture() error {
 ```
 
 Capture() 用來截圖，並且將結果存到 buf 裡面。
-這裡我們使用了 [kbinani/screenshot](github.com/kbinani/screenshot) 來截圖。
+這裡我們使用了 [kbinani/screenshot](https://github.com/kbinani/screenshot) 來截圖。
 
 ### Reader()
 
