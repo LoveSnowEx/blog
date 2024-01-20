@@ -1,6 +1,6 @@
 ---
 title: "[開發筆記] 如何使用 self-hosted runner？"
-slug: "how-to-use-self-hosted-runner"
+slug: "self-hosted-runner-guide"
 tags: [
     "github",
     "devops",
