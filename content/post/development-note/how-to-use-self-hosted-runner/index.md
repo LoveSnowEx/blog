@@ -1,6 +1,6 @@
 ---
-title: "[開發筆記] 安裝 self-hosted runner"
-slug: "self-hosted-runner-installation"
+title: "[開發筆記] 如何使用 self-hosted runner？"
+slug: "how-to-use-self-hosted-runner"
 tags: [
     "github",
     "devops",
@@ -9,11 +9,12 @@ categories: [
     "開發筆記",
 ]
 keywords: [
-    "development-note",
+    "development note",
     "devops",
     "github",
     "self-hosted runner",
     "github actions",
+    "actions runner",
     "開發筆記",
     "維運",
     "自架 runner",
