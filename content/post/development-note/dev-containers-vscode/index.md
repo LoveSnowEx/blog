@@ -31,7 +31,7 @@ draft: false
 
 ## 前言
 
-Dev Containers 是一項強大的功能，允許我們在 VSCode 中利用 Docker 容器建立開發環境。  
+Dev Containers 是一個強大的功能，允許我們在 VSCode 中利用 Docker 容器建立開發環境。  
 這使得在開發過程中，我們無需在本機安裝各種開發環境，只需調整 Dockerfile 即可輕鬆搞定，相當方便實用。
 
 ## 安裝
@@ -131,7 +131,7 @@ func main() {
 
 ## 結語
 
-除了使用官方預設的 Dockerfile 外，我們還可以自定義 Dockerfile，安裝所需的開發環境。  
-只要能將容器跑起來，就可以利用 Dev Containers 靈活的進行開發。
+除了使用官方預設的 image 外，我們還可以自定義 Dockerfile 來安裝所需的開發環境。  
+只要能夠成功運行容器，我們就可以利用 Dev Containers 來靈活的進行開發。
 
-Dev Containers 還有一些進階功能，例如使用 `devcontainer.json` 可以設定容器的環境變數、安裝套件等等，這邊就不一一介紹了，有興趣的人可以參考[官方文件](https://code.visualstudio.com/docs/devcontainers/create-dev-container#_create-a-devcontainerjson-file)對 `devcontainer.json` 進行設定。
+Dev Containers 還有一些進階功能，例如使用 `devcontainer.json` 可以設定容器的環境變數、安裝套件等等，這些功能非常強大，但在這裡就不一一介紹了。有興趣的人可以參考[官方文件](https://code.visualstudio.com/docs/devcontainers/create-dev-container#_create-a-devcontainerjson-file)來了解更多詳細資訊。
