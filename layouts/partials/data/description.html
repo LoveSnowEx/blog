@@ -1,12 +1,27 @@
 <!-- Use site subtitle by default -->
 {{ $description := .Site.Params.sidebar.subtitle }}
 
-{{ if .Description }}
-    <!-- Page description exists -->
-    {{ $description = .Description }}
+{{ if hasPrefix .RelPermalink "/categories" }}
+    <!-- Use category description -->
+    {{ $description = printf "%s: %s" (title .Data.Singular) .Title }}
+{{ else if hasPrefix .RelPermalink "/tags" }}
+    <!-- Use tag description -->
+    {{ $description = printf "%s: %s" (title .Data.Singular) .Title }}
+{{ else if hasPrefix .RelPermalink "/archives" }}
+    <!-- Use archive description -->
+    {{ $description = "Archives" }}
+{{ else if hasPrefix .RelPermalink "/about" }}
+    <!-- Use about description -->
+    {{ $description = "About me" }}
+{{ else if hasPrefix .RelPermalink "/search" }}
+    <!-- Use search description -->
+    {{ $description = "Search" }}
 {{ else if .IsPage }}
     <!-- Use page summary -->
     {{ $description = .Summary }}
+{{ else if .Description }}
+    <!-- Use page description -->
+    {{ $description = .Description }}
 {{ end }}
 
 {{ return ($description | plainify)}}
