@@ -305,7 +305,7 @@ declare global {
     }
 }
 
-window.addEventListener('load', () => {
+document.addEventListener('DOMContentLoaded', () => {
     setTimeout(function () {
         const searchForm = document.querySelector('.search-form') as HTMLFormElement,
             searchInput = searchForm.querySelector('input') as HTMLInputElement,
