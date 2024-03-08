@@ -43,7 +43,7 @@ Dev Containers 是一個強大的功能，允許我們在 VSCode 中利用 Docke
 ## 使用
 
 安裝完成後，我們就可以進入容器開發了。  
-通常，我會先把容器開好，使用 Docker Compose 把專案 mount 到容器中，再將 VS Code 連到容器中進行開發。
+通常，我會先把容器開好，把專案 mount 到容器中，再將 VS Code 連到容器中進行開發。
 
 以下我會示範如何使用 Dev Containers 來建立並開發一個簡單的 Go 專案。
 
@@ -56,7 +56,7 @@ Dev Containers 是一個強大的功能，允許我們在 VSCode 中利用 Docke
 └── docker-compose.yml
 ```
 
-在這邊，我們使用官方的 Golang image，並且把專案根目錄 mount 到容器中。
+在這邊，我們使用官方的 Golang image，把專案根目錄 mount 到容器中，並且設定工作目錄為 `/go/src/app`。
 
 ```yaml
 version: '3'
@@ -66,6 +66,7 @@ services:
     command: ["bash", "-c", "while true; do sleep 1000; done;"]
     volumes:
       - .:/go/src/app
+    working_dir: /go/src/app
 ```
 
 > 我們使用 `while true; do sleep 1000; done;` 來讓容器不會自動關閉，以便我們可以連線到容器中。
@@ -102,7 +103,7 @@ go mod init hello-world
 
 ![初始化 Go 專案](assets/go-mod-init.png)
 
-接著我們在專案根目錄建立一個 main.go。
+接著我們在專案根目錄建立一個檔案 `main.go`。
 
 ```tree
 .
