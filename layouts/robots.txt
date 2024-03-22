@@ -1,3 +1,3 @@
 User-agent: *
-Disallow: 
-Sitemap: https://blog.lovesnowex.tk/sitemap.xml
+Disallow:
+Sitemap: {{ urls.JoinPath .Site.BaseURL "sitemap.xml" }}
