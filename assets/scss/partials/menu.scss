@@ -209,12 +209,28 @@
     display: flex;
     flex-direction: row;
     gap: 10px;
-    justify-content: center; #设置居中
+    justify-content: center; // 设置居中
 
     svg {
         width: 24px;
         height: 24px;
         stroke: var(--body-text-color);
         stroke-width: 1.33;
+    }
+
+    a {
+        svg {
+            path {
+                fill: var(--accent-color);
+            }
+        }
+
+        &:hover {
+            svg {
+                path {
+                    fill: var(--accent-color-darker);
+                }
+            }
+        }
     }
 }

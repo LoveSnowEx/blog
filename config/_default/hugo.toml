@@ -31,6 +31,14 @@ url = "https://github.com/LoveSnowEx"
 [menu.social.params]
 icon = "brand-github"
 
+[[menu.social]]
+identifier = "linkedin"
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/tavie-kuo"
+
+[menu.social.params]
+icon = "brand-linkedin"
+
 [related]
 includeNewer = true
 threshold = 60
