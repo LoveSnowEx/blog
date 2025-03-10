@@ -2,11 +2,13 @@ DefaultContentLanguage = "en"
 disqusShortname = "stack"
 hasCJKLanguage = true
 languageCode = "en-us"
-paginate = 5
 theme = "stack"
 title = "LoveSnowEx's Blog"
 baseURL = "https://lovesnowex.com/"
 enableRobotsTXT = true
+
+[pagination]
+pagerSize = 5
 
 [permalinks]
 page = "/:slug/"
