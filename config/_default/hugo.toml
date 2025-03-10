@@ -6,7 +6,6 @@ paginate = 5
 theme = "stack"
 title = "LoveSnowEx's Blog"
 baseURL = "https://lovesnowex.com/"
-googleAnalytics = "G-T1D8VD7D71"
 enableRobotsTXT = true
 
 [permalinks]
@@ -77,3 +76,7 @@ priority = 0.5
 
 [services.rss]
 limit = 5
+
+[services]
+[services.googleAnalytics]
+ID = 'G-T1D8VD7D71'
